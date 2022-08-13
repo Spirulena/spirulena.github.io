@@ -1,4 +1,5 @@
 ---
+layout: posts
 title:  "How to bootstrap a game company"
 ---
 
