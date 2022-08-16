@@ -1,3 +1,25 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title:              Spirulena
+email:              spirulena@proton.me
+description:        Game studio from the planet Earth
+author:             Spirunela
+baseurl:            ""
+url:                "https://spirulena.xyz"
+
+# Social Profiles
+twitter_username:   spirulena_games
+github_username:    Spirulena
+facebook_username:  
+instagram_username: spirulena_games
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
-  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
