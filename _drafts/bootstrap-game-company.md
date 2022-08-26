@@ -2,7 +2,7 @@
 layout: post
 title: "How to bootstrap game company"
 subtitle: "Quickstart guide"
-date: 2022-10-29 20:56:13 -0400
+# date: 2022-12-29 20:56:13 -0400
 background: '/img/sand2.jpg'
 ---
 
