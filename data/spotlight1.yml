@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+style: "style5 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title: "Mycelium Guardians"
+content: |
+  Our latest indie game! <br/>
+  Isometric strategy game, you command a collective of fungi in a post-apocalyptic Earth.<br/>
+   Utilize mycelium to build structures, manage resources, and mitigate environmental threats. Your choices shape the balance between life and desolation. Engage in strategy to be Earth's final line of defense.
+button:
+  label: "Wishlist now on Steam"
+  link: "https://store.steampowered.com/app/2656990/Mycelium_Guardians/"
+image: "images/hero-game.jpg"

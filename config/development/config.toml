@@ -1,0 +1,47 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Spirulena"
+copyright = "{year}"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+baseURL = "/"
+publishDir = "public"
+
+# Remote
+#baseURL = "https://spirulena.xyz/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "G-XXXXXXXXXX"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/Spirulena"
+  twitter = "https://twitter.com/spirulena_games"
+  email = "spirulena@proton.me"
+  instagram = "https://instagram.com/spirulena_games"
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]

@@ -1,0 +1,18 @@
+title: "Gallery"
+style: "style1 medium lightbox onscroll-fade-in"
+pictures:
+  - image: "images/gallery/fulls/screenshot01.jpg"
+    thumb: "images/gallery/thumbs/screenshot01.jpg"
+    button: "View"
+
+  - image: "images/gallery/fulls/screenshot02.jpg"
+    thumb: "images/gallery/thumbs/screenshot02.jpg"
+    button: "View"
+
+  - image: "images/gallery/fulls/screenshot03.jpg"
+    thumb: "images/gallery/thumbs/screenshot03.jpg"
+    button: "View"
+
+  - image: "images/gallery/fulls/screenshot04.jpg"
+    thumb: "images/gallery/thumbs/screenshot04.jpg"
+    button: "View"
