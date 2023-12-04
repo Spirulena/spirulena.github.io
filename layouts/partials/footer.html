@@ -88,6 +88,12 @@
           ><span class="label">LinkedIn</span></a
         >
       </li>
+      {{end}} {{ with .Site.Params.social.youtube }}
+      <li>
+        <a target="_blank" href="{{.}}" class="icon brands style2 fa-youtube"
+          ><span class="label">Youtube</span></a
+        >
+      </li>
       {{end}} {{ with .Site.Params.social.email }}
       <li>
         <a

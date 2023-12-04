@@ -41,6 +41,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
   twitter = "https://twitter.com/spirulena_games"
   email = "spirulena@proton.me"
   instagram = "https://instagram.com/spirulena_games"
+  youtube = "https://www.youtube.com/@spirulena"
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
