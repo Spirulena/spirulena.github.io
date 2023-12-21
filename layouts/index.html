@@ -1,3 +1,132 @@
 {{ define "main" }} {{ partial "banner" site.Data.banner }} {{ partial
-"spotlight" site.Data.spotlight1 }} {{ partial "gallery" site.Data.gallery }} {{
-partial "footer" . }} {{ end }}
+"spotlight" site.Data.spotlight1 }} {{ partial "gallery" site.Data.gallery }}
+<section class="wrapper style1 align-center" id="donate">
+  <div class="inner">
+    <h2>Support us</h2>
+    <div class="items style1 medium onscroll-fade-in">
+      <section>
+        <a href="http://patreon.com/Spirulena">
+          <span class="icon brands style2 major fa-patreon"></span>
+          <h3>Patreon</h3>
+        </a>
+      </section>
+      <section>
+        <a href="https://www.buymeacoffee.com/spirulena">
+          <span class="icon solid style2 major fa-mug-hot"></span>
+          <h3>Buy me a coffee</h3>
+        </a>
+      </section>
+      <section>
+        <a href="https://liberapay.com/spirulena/">
+          <span class="icon solid style2 major fa-hand-holding-dollar"></span>
+          <h3>LiberaPay</h3>
+        </a>
+      </section>
+    </div>
+  </div>
+</section>
+<section class="wrapper style1 align-center" id="team">
+  <div class="inner">
+    <h2>Team</h2>
+    <div>
+      <section class="spotlight style2 orient-right">
+        <div class="content">
+          <h3>Magic Random Friday</h3>
+          <p>
+            Magic Random Friday is the developer of 'Mycelium Guardians,' where
+            his fascination with music, graphic design, and mycology comes
+            together. He enjoys the process of game development and the peaceful
+            pursuit of fungi cultivation, blending his interests in nature and
+            technology.
+          </p>
+          <p>
+            <a href="https://linktr.ee/magic_music_friday">Website</a>
+          </p>
+        </div>
+        <div class="image"><img src="images/team/magic.jpeg" alt="" /></div>
+      </section>
+      <section class="spotlight style2 orient-left">
+        <div class="content">
+          <h3>Boran</h3>
+          <p>
+            Boran loves diving into retro strategy games, passionate about
+            preserving and reviving their essence. He firmly believes that a
+            game truly comes to life when the community gets involved. His
+            dream? Open sourcing games and watching the community work its magic
+            to elevate them.
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/team/boran.jpeg" alt="" />
+        </div>
+      </section>
+      <section class="spotlight style2 orient-right">
+        <div class="content">
+          <h3>David</h3>
+          <p>
+            Our founder, David, possesses over a decade of diverse experience in
+            consulting, startup leadership, and mentorship, driven by an
+            unyielding passion for technology and open source. Whether delving
+            into new programming languages or guiding the next generation of
+            thought leaders, his dedication remains unwavering.David has held
+            various roles, including Data Engineer, Data Scientist, Lead
+            Programmer, Head of Data, DevOps Platform Engineer, CTO, and Founder
+            of small startups, reflecting his commitment to drawing wisdom from
+            diverse sources to navigate the ever-evolving tech landscape.
+            Notably, he has applied his expertise across a spectrum of
+            industries, showcasing adaptability and a keen ability to contribute
+            in different domains.An astrophysicist by trade, David embarked on a
+            unique career trajectory, making significant contributions to
+            renowned companies like Square Enix and Activision Blizzard. Despite
+            his academic roots in astrophysics, he seamlessly transitioned into
+            innovative gaming and entertainment environments, exemplifying his
+            versatility across industries.
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/team/david.jpeg" alt="" />
+        </div>
+      </section>
+    </div>
+    <h2>Collaborators</h2>
+    <div class="items style3 medium onscroll-fade-in">
+      <section>
+        <span class="image fit round"
+          ><img src="images/team/saad.png" alt=""
+        /></span>
+        <h3>Saad</h3>
+        <p>
+          Saad Memon is an imaginative sonic artist who loves to tell stories
+          through sound. In his free time, he runs a record label, produces
+          music and performs around London where he is currently based.
+        </p>
+        <p>
+          <a href="https://saadmemon.org/" style="margin: 0 10px"
+            ><span class="icon solid style fa-globe"></span
+          ></a>
+          <a href="https://www.instagram.com/daasnomem/" style="margin: 0 10px"
+            ><span class="icon brands style1 fa-instagram"></span
+          ></a>
+          <a href="https://twitter.com/DontBeSaad" style="margin: 0 10px"
+            ><span class="icon brands style1 fa-x"></span
+          ></a>
+        </p>
+      </section>
+      <section>
+        <span class="image fit round"
+          ><img src="images/team/taty.jpg" alt=""
+        /></span>
+        <h3>Taty</h3>
+        <p>
+          Taty is a creative web developer with a background in Game Design. She
+          loves making things and playing games. You will often find her
+          cosplaying or drinking bubble tea.
+        </p>
+        <p>
+          <a href="https://tatianabernardo.work">Website</a>
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+{{ partial "footer" . }} {{ end }}
