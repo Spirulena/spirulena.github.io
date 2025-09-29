@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Spirulena</title>
-    <link>/</link>
-    <description>Recent content on Spirulena</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>{year}</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spirulena</title><link>https://spirulena.xyz/</link><description>Recent content on Spirulena</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>{year}</copyright><atom:link href="https://spirulena.xyz/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
